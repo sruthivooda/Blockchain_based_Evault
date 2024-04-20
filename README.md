@@ -88,7 +88,7 @@ sudo ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-jav
 #### Starting the application :
 - Before starting the application, set up the folders like `application-javascript`, `chaincode-javascript` and `test-application`. Modify these files as per your requirements. In `application-javascript`and then follow these commands:
 ```bash
- cd path/to/evault_blockchain/asset-transfer-basic/application-javascript
+ cd path/to/Blockchain_based_Evault/asset-transfer-basic/application-javascript
  npm init
  npm i
  npm start
@@ -97,7 +97,7 @@ sudo ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-jav
 ### Cloning the Repository:
 #### Starting the fabric-network :
 ```bash
-git clone https://github.com/rohith-bandi/evault_blockchain
+git clone https://github.com/sruthivooda/Blockchain_based_Evault
 cd path/to/fabric-samples/test-network
 ./network.sh down
 sudo ./network.sh up -s couchdb
@@ -106,7 +106,7 @@ sudo ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-jav
 ```
 #### Starting the application :
 ```bash
- cd path/to/evault_blockchain/asset-transfer-basic/application-javascript
+ cd path/to/Blockchain_based_Evault/asset-transfer-basic/application-javascript
  npm init
  npm i
  npm start
